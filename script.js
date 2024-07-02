@@ -16,10 +16,12 @@ guessBTn.addEventListener("click",(event)=>{
     else if (input.value > random){
         result.innerHTML = "You guessed "+ input.value+" that is too high"
         span2.innerHTML = input.value
+        input.value = ""
         
     }
     else{
         result.innerHTML = "You guessed "+ input.value+" that is too low"
         span1.innerHTML = input.value
+        input.value = ""
     }
 })

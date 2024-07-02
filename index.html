@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>guessing game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Guessing Game</h2>
+        <button class="guessBtn" onclick="window.location.reload()" >Start New Game</button>
+        <p>Guess a number between <span class="span1">1</span>-<span class="span2">100</span></p>
+        <form>
+            <input class="input" type="number" />
+            <button class="guessBtn" id="guess_btn" type="submit">guess</button>
+        </form>
+        <h3 class="result">You guessed 60 that is too low</h3>
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

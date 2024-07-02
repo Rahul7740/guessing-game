@@ -1,0 +1,27 @@
+body{
+    background-color: #14311d;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+input,button{
+    padding: 9px;
+    border:1px solid #14311d;
+    border-radius: 8px;
+}
+.guessBtn{
+    background-color: #14311d;
+    color: white;
+}
